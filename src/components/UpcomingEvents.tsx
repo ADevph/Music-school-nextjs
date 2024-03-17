@@ -2,6 +2,7 @@
 import Link from "next/link"
 import { HoverEffect } from "./ui/card-hover-effect";
 
+
 function UpcomingEvents() {
 
   const featuredWebinars = [
