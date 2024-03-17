@@ -1,11 +1,12 @@
 
 export default function Home() {
   return (
-    
+  
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-while (/[0.02]) ">
 
-<>
-<h1 className=" font-bold text-2xl">hello </h1>
-</>
+Music Home Page
+
+    </main>
 
   );
 }
