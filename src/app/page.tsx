@@ -1,5 +1,6 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import Hero from "@/components/Hero";
+import Instructors from "@/components/Instructors";
 import Scroll from "@/components/Scroll";
 import TestimonialCards from "@/components/TestimonialCards";
 import UpcomingEvents from "@/components/UpcomingEvents";
@@ -17,6 +18,7 @@ export default function Home() {
 <Scroll />
 <TestimonialCards />
 <UpcomingEvents />
+<Instructors />
 
 
     </main>
