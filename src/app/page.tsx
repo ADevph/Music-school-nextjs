@@ -5,23 +5,16 @@ import Scroll from "@/components/Scroll";
 import TestimonialCards from "@/components/TestimonialCards";
 import UpcomingEvents from "@/components/UpcomingEvents";
 
-
-
 export default function Home() {
   return (
-  
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-while (/[0.02]) ">
+      <Hero />
 
-<Hero />
-
-<FeaturedCourses />
-<Scroll />
-<TestimonialCards />
-<UpcomingEvents />
-<Instructors />
-
-
+      <FeaturedCourses />
+      <Scroll />
+      <TestimonialCards />
+      <UpcomingEvents />
+      <Instructors />
     </main>
-
   );
 }

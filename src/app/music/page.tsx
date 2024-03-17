@@ -5,7 +5,6 @@ export default function MusicPage(){
         
         <p className=" text-3xl text-center bg-sky-400">
         
-        hellllo from music
         
         </p>
         
