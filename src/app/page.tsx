@@ -1,6 +1,7 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import Hero from "@/components/Hero";
 import Scroll from "@/components/Scroll";
+import TestimonialCards from "@/components/TestimonialCards";
 
 
 
@@ -13,6 +14,9 @@ export default function Home() {
 
 <FeaturedCourses />
 <Scroll />
+<TestimonialCards />
+
+
     </main>
 
   );

@@ -59,7 +59,7 @@ const musicSchoolContent = [
         content: (
           <div className="h-full w-full  flex items-center justify-center text-white">
             <Image
-              src="/courses/notes.jpg"
+              src="/courses/song-writing.jpg"
               width={400}
               height={400}
               className="h-full w-full object-cover"
