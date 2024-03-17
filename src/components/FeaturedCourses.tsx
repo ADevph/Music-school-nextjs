@@ -51,7 +51,12 @@ function FeaturedCourses() {
                   <p className="text-sm text-neutral-600 dark:text-neutral-400 flex-grow">
                     {course.description}
                   </p>
-                  <Link href={`/courses/${course.slug}`} className=" bg-gray-700 bg-opacity-70 text-white mt-2 py-1 px-2 rounded-lg hover:bg-slate-300 hover:text-blue-800 font-semibold">Learn More</Link>
+                  <Link
+                    href={`/courses/${course.slug}`}
+                    className=" bg-slate-800 bg-opacity-60 text-white mt-3 py-2 px-4 rounded-lg hover:bg-slate-400 hover:bg-opacity-80 hover:text-slate-900 font-semibold"
+                  >
+                    Learn More
+                  </Link>
                 </div>
               </BackgroundGradient>
             </div>
@@ -65,8 +70,6 @@ function FeaturedCourses() {
         >
           View All courses
         </Link>
-
-        
       </div>
     </div>
   );
