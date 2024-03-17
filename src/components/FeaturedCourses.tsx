@@ -66,7 +66,7 @@ function FeaturedCourses() {
       <div className="mt-20 text-center">
         <Link
           href={"/courses"}
-          className="px-2 py-2 rounded-lg border-indigo-800 text-blue-800 font-semibold bg-slate-300 hover:bg-gray-200 transition duration-200"
+          className="px-2 py-2 rounded-lg  text-slate-800 font-semibold bg-slate-300 hover:bg-gray-200 transition duration-200"
         >
           View All Courses
         </Link>

@@ -2,6 +2,7 @@ import FeaturedCourses from "@/components/FeaturedCourses";
 import Hero from "@/components/Hero";
 import Scroll from "@/components/Scroll";
 import TestimonialCards from "@/components/TestimonialCards";
+import UpcomingEvents from "@/components/UpcomingEvents";
 
 
 
@@ -15,6 +16,7 @@ export default function Home() {
 <FeaturedCourses />
 <Scroll />
 <TestimonialCards />
+<UpcomingEvents />
 
 
     </main>
