@@ -53,7 +53,7 @@ function MusicSchoolContactUs() {
 
         </form>
 
-        <Meteors number={80} />
+        <Meteors number={50} />
       </div>
     </div>
   );

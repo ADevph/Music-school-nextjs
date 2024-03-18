@@ -2,15 +2,21 @@ import Image from "next/image";
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "@/components/ui/3d-card";
 import courseData from "@/data/music.json";
+import Link from "next/link";
 
 function Page() {
   return (
-    <div className="min-h-screen bg-black py-12 pt-36">
-      <h1 className="text-lg md:text-4xl text-center font-sans font-semibold mb-4 text-white">All courses ({courseData.courses.length})</h1>
-      <div className="flex flex-wrap justify-center">
+    <div className="min-h-screen bg-black py-10 pt-36">
+      <h1 className="text-lg md:text-4xl text-center font-sans font-semibold mb-2 text-white">
+        All courses ({courseData.courses.length})
+      </h1>
+      <div className="flex flex-wrap justify-center gap-y-2 cursor-pointer">
         {courseData.courses.map((course) => (
-          <CardContainer key={course.id} className="inter-var mx-4 border border-blue-600 rounded-xl">
-            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-6 border  ">
+          <CardContainer
+            key={course.id}
+            className="inter-var mx-4 border border-blue-600 rounded-xl"
+          >
+            <CardBody className="bg-gray-50 relative group/card  dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-black dark:border-white/[0.2] border-black/[0.1] w-auto sm:w-[30rem] h-auto rounded-xl p-4 border  ">
               <CardItem
                 translateZ="50"
                 className="text-xl font-bold text-neutral-600 dark:text-white"
@@ -36,6 +42,13 @@ function Page() {
             </CardBody>
           </CardContainer>
         ))}
+      </div>
+      <div className="flex justify-center mt-6">
+        <Link href={"/"}>
+          <button className="border justify-center items-center border-slate-500 text-white text-lg rounded-lg p-2">
+            Go Back
+          </button>
+        </Link>
       </div>
     </div>
   );
