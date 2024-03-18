@@ -5,8 +5,7 @@ import { Spotlight } from "./ui/Spotlight";
 import { Button } from "./ui/moving-border";
 import { TextGenerateEffect } from "./ui/text-generate-effect";
  
-const words = ` Dive into our courses and transform your musical journey today. 
-                Join us to unlock your true potential. `;
+const words = `Join Us To Unlock Your True Potential.`;
 
 const Hero = () => {
   return (

@@ -14,7 +14,8 @@ function MusicSchoolContactUs() {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 dark:bg-gray-900">
+    <div className=" h-auto bg-slate-900 md:h-[45rem] w-full flex flex-col items-center justify-center relative overflow-hidden max-auto py-6 md:py-0">
+    
      
       <div className="absolute top-0 left-0 w-full h-full" />
       <div className="max-w-2xl mx-auto p-4">
@@ -53,7 +54,7 @@ function MusicSchoolContactUs() {
 
         </form>
 
-        <Meteors number={50} />
+        <Meteors number={50} className="md: number"/>
       </div>
     </div>
   );

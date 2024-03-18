@@ -52,7 +52,8 @@ function FeaturedCourses() {
                     {course.description}
                   </p>
                   <Link
-                    href={`/courses/${course.slug}`}
+                    // href={`/courses/${course.slug}`}
+                    href={`/courses`}
                     className=" bg-slate-800 bg-opacity-60 text-white mt-3 py-2 px-4 rounded-lg hover:bg-slate-400 hover:bg-opacity-80 hover:text-slate-900 font-semibold"
                   >
                     Learn More
